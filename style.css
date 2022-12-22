@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+  }
+  
+  .flex-container {
+    border: 10px solid #7f00ff;
+    display: inline-flex;
+    flex-direction:row;
+    
+    min-width: 100%; 
+}
+.flex-item {
+    
+    text-align: center;
+    flex: 1;
+    padding-top:23.3%;
+    padding-bottom:23.3%;
+    font: 900 60px "Roboto", sans-serif;
+    color: rgb(207, 243, 248);
+   
+    text-shadow: 8px 2px 0 rgba(4, 249, 192, 0.2);
+   
+}
+.item-1{
+    background: linear-gradient(0deg, #56ea2d, #f1f506,#03fcec);
+}
+.item-2{
+    background: linear-gradient(90deg, #b1da36, #d2b225,#c2694e);
+}
+.item-3{
+    background: linear-gradient(0deg, #cf0bf2, #e30bd5,#b85977);
+}
